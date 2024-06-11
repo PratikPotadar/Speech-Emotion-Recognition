@@ -5,8 +5,7 @@ SRE is the act of attempting to recognize human emotion and affective states fro
 **DESIGN ANALYSIS** 
 
 The  system  will  demonstrate  how  to  apply  Machine  Learning  and  Deep  Learning  techniques  to  the classification of environmental sounds, specifically focusing on the identification of particular voice or speech. When given an audio sample in a computer readable format (such as a .wav file) of a few seconds duration, we want  to  be able to determine if it contains one of the target  datasets  sounds  with a corresponding Classification Accuracy score. 
-
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.002.jpeg)
+![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/d0c14a51-4a05-4b94-a556-ddefc5c36701)
 
 Fig 1 - A sound wave, in red, represented digitally, in blue  with the resulting array shown on the right. 
 
@@ -14,7 +13,7 @@ Fig 1 - A sound wave, in red, represented digitally, in blue  with the resulting
 
 ` `Just like classifying hand-written digits using the MNIST dataset is considered a ‘Hello World”-type problem for Computer Vision, we can think of this application as the introductory problem for audio deep learning.  We will start with sound files, convert them into spectrograms, input them into a CNN plus Linear Classifier model, and produce predictions about the class to which the sound belongs.
 
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.003.jpeg)
+![image](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.003.jpeg)
 
 Fig 2 – Audio wave classification 
 
