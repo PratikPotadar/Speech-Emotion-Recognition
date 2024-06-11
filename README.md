@@ -93,39 +93,6 @@ Next the Data preparation and Modelling is a essential part of the system now we
 
 Fig 5 – WAV to Spectrogram transformation 
 
-
-
-**PROJECT INFORMATION** 
-
-Implementation is the stage where the theoretical design is turned into a working system. The most crucial stage in achieving a new successful system and in giving confidence on the new system for the users that it will work efficiently and effectively. The system can be implemented only after thorough testing is done and if it is found to work according to the specification. It involves careful planning, investigation of the current system and it constraints on implementation, design of methods to achieve the change over and an evaluation of change over methods a part from planning.  
-
-Two major tasks of preparing the implementation are education and training of the users and testing of the system. The more complex the system being implemented, the more involved will be the system analysis and design effort required just for implementation. The implementation phase comprises of several activities. The required hardware and software acquisition is carried out. The system may require some software to be developed. For this, programs are written and tested. The user then changes over to his new fully tested system and the old system is discontinued.  
-
-1. **TESTING** 
-
-The testing phase is an important part of software development. It is the Information zed system will help in automate process of finding errors and missing operations and also a complete verification to determine whether the objectives are met and the user requirements are satisfied. Software testing is carried out in three steps:  
-
-1. The first includes unit testing, where in each module is tested to provide its correctness, validity and also determine any missing operations and to verify whether the objectives have been met. Errors are noted down and corrected immediately.  
-1. Unit testing is the important and major part of the project. So errors are rectified easily in particular module and program clarity is increased. In this project entire system is divided into several modules and is developed individually. So unit testing is conducted to individual modules.  
-1. The second step includes Integration testing. It need not be the case, the software whose modules when run individually and showing perfect results, will also show perfect results when run as a whole. 
-2. **Importing Libraries**  
-
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.007.jpeg)
-
-Fig 6 - Importing Libraries 
-
-**Paths for data**  
-
-Ravdess = "/kaggle/input/ravdess-emotional-speech-audio/audio\_speech\_actors\_01-24/"  Crema = "/kaggle/input/cremad/AudioWAV/"  
-
-Tess = "/kaggle/input/toronto-emotional-speech-set-tess/tess toronto emotional speech set data/TESS Toronto emotional speech set data/"  
-
-Savee = "/kaggle/input/surrey-audiovisual-expressed-emotion-savee/ALL/"  
-
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.008.png)
-
-Fig 7 – Data Path 
-
 3. **Plotting waveplots and spectrograms for audio signals** 
 
 ![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.009.jpeg)
@@ -154,25 +121,12 @@ Fig 8 – Waveplot and Spectrogram
 - Chroma Deviation: The standard deviation of the 12 chroma coefficients.  
 - In final stage the Data preparation and Modelling is a essential part of the system now we need to normalize and split our data for training and testing. 
 
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.010.jpeg)
+![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/9c219b66-13e5-4168-95d2-b9a1dc05eade)
 
-Fig 9 – Feature Extraction 
-
-Plotting subgraphs against Training & Testing Loss and Training & Testing Accuracy 
-
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.011.png)
-
-Fig 10 - Training & Testing Loss 
-
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.012.png)
-
-Fig 11 - Training & Testing Accuracy Accuracy of our model on test data :  60.74326038360596 % 
+Training & Testing Accuracy Accuracy of our model on test data :  60.74326038360596 % 
 
 Using the algorithm: well train it on the training set & we'll test it on the test set. The result obtained here is the test accuracy using Confusion matrix. 
 
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.013.png)
-
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.014.jpeg)
-
 Fig 11 – Confusion Matrix 
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.015.png)
+![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/e20730cb-c4bd-4c7e-849f-aa6e8f40c7ed)
+
