@@ -5,6 +5,7 @@ SRE is the act of attempting to recognize human emotion and affective states fro
 **DESIGN ANALYSIS** 
 
 The  system  will  demonstrate  how  to  apply  Machine  Learning  and  Deep  Learning  techniques  to  the classification of environmental sounds, specifically focusing on the identification of particular voice or speech. When given an audio sample in a computer readable format (such as a .wav file) of a few seconds duration, we want  to  be able to determine if it contains one of the target  datasets  sounds  with a corresponding Classification Accuracy score. 
+
 ![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/d0c14a51-4a05-4b94-a556-ddefc5c36701)
 
 Fig 1 - A sound wave, in red, represented digitally, in blue  with the resulting array shown on the right. 
@@ -13,7 +14,7 @@ Fig 1 - A sound wave, in red, represented digitally, in blue  with the resulting
 
 ` `Just like classifying hand-written digits using the MNIST dataset is considered a ‘Hello World”-type problem for Computer Vision, we can think of this application as the introductory problem for audio deep learning.  We will start with sound files, convert them into spectrograms, input them into a CNN plus Linear Classifier model, and produce predictions about the class to which the sound belongs.
 
-![image](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.003.jpeg)
+![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/4323a292-8cf4-4019-a645-68dcb99389de)
 
 Fig 2 – Audio wave classification 
 
@@ -61,7 +62,7 @@ Participants rated the emotion and emotion levels based on the combined audio-vi
 
 **Data Visualization and Exploration**  Plotting the count of each emotions of dataset. 
 
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.004.png)
+![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/55ce8289-6d5f-4569-8012-fada93215780)
 
 Fig 3 – Count of Emotions 
 
@@ -73,7 +74,7 @@ We can also plot waveplots and spectrograms for audio signals:
 
 **Feature Extraction -** Extraction of features is a very important part in analysing and finding relations between different things. As we already know that the data provided of audio cannot be understood by the models directly, so we need to convert them into an understandable format for which feature extraction is used.  The audio signal is a three-dimensional signal in which three axes represent time, amplitude and frequency. 
 
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.005.png)
+![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/e41fa2fc-6bf5-4767-a406-533796b6bd76)
 
 Fig 4 – Audio signal in 3D  
 
@@ -87,7 +88,8 @@ In this project I am not going deep in feature selection process to check which 
 
 Next the Data preparation and Modelling is a essential part of the system now we need to normalize and split our data for training and testing. Prepare training data As for most deep learning problems, we will follow these steps: 
 
-![](Aspose.Words.ba5bb550-c4e1-41e9-bc72-3d47d1dd2fa4.006.jpeg)
+![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/2a47baf2-2f35-44c6-aaf3-7180260acc22)
+
 
 Fig 5 – WAV to Spectrogram transformation 
 
