@@ -8,7 +8,7 @@ The  system  will  demonstrate  how  to  apply  Machine  Learning  and  Deep  Le
 
 ![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/d0c14a51-4a05-4b94-a556-ddefc5c36701)
 
-Fig 1 - A sound wave, in red, represented digitally, in blue  with the resulting array shown on the right. 
+A sound wave, in red, represented digitally, in blue  with the resulting array shown on the right. 
 
 1. **Audio/Voice Classification**  
 
@@ -16,7 +16,7 @@ Fig 1 - A sound wave, in red, represented digitally, in blue  with the resulting
 
 ![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/4323a292-8cf4-4019-a645-68dcb99389de)
 
-Fig 2 – Audio wave classification 
+Audio wave classification 
 
 2. **Libraries**  
 - pandas - Fast, powerful, flexible and easy to use open-source data analysis and manipulation library.  
@@ -64,7 +64,7 @@ Participants rated the emotion and emotion levels based on the combined audio-vi
 
 ![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/55ce8289-6d5f-4569-8012-fada93215780)
 
-Fig 3 – Count of Emotions 
+Count of Emotions 
 
 We can also plot waveplots and spectrograms for audio signals:  
 
@@ -76,7 +76,7 @@ We can also plot waveplots and spectrograms for audio signals:
 
 ![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/e41fa2fc-6bf5-4767-a406-533796b6bd76)
 
-Fig 4 – Audio signal in 3D  
+Audio signal in 3D  
 
 In this project I am not going deep in feature selection process to check which features are good for our dataset rather I am only extracting 5 features:  
 
@@ -91,7 +91,7 @@ Next the Data preparation and Modelling is a essential part of the system now we
 ![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/2a47baf2-2f35-44c6-aaf3-7180260acc22)
 
 
-Fig 5 – WAV to Spectrogram transformation 
+WAV to Spectrogram transformation 
 
 3. **Plotting waveplots and spectrograms for audio signals** 
 
@@ -127,7 +127,7 @@ Training & Testing Accuracy Accuracy of our model on test data :  60.74326038360
 
 Using the algorithm: well train it on the training set & we'll test it on the test set. The result obtained here is the test accuracy using Confusion matrix. 
 
-Fig 11 – Confusion Matrix 
+Confusion Matrix 
 
 ![image](https://github.com/PratikPotadar/Speech-Emotion-Recognition/assets/112809210/e20730cb-c4bd-4c7e-849f-aa6e8f40c7ed)
 
